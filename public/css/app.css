@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+:root {
+    --color-icon-system: #999;
+    --color-background-light: #f7f6f6;
+    --color-text-light: #000000;
+    --color-background-dark: #000000;
+    --color-text-dark: #ffffff;
+    --color-icon-light: #000000;
+    /* Color del icono en el tema claro */
+    --color-icon-dark: #fff;
+    /* Estilos del botón en el modo claro */
+    --boton-fondo-claro: #07be17;
+    --boton-texto-claro: #000000;
+    /* Estilos del botón en el modo oscuro */
+    --boton-fondo-oscuro: #09afaf;
+    --boton-texto-oscuro: #000000;
+    --primary-color: #695CFE;
+
+
+    --color-navbar-claro: blue;
+    --color-navbar-oscuro: purple;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.tema-oscuro {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.tema-claro {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/*TEMAS*/
+/*OSCURO*/
+.tema-oscuro .custom-dropbtn {
+    background-color: #555;
+    color: rgb(255, 255, 255);
+}
+
+.tema-oscuro .custom-dropdown-content {
+    background-color: #323332;
+    color: rgb(255, 255, 255);
+
+}
+
+.tema-oscuro .custom-dropdown-content span:hover {
+    background-color: #ddd;
+    color: #000000;
+
+}
+
+/*CLARO*/
+.tema-claro .custom-dropbtn {
+    background-color: #357ac9;
+    color: rgb(255, 255, 255);
+}
+
+.tema-claro .custom-dropdown-content {
+    background-color: #357ac9;
+    color: rgb(255, 255, 255);
+
+}
+
+.tema-claro .custom-dropdown-content span:hover {
+    background-color: #021841;
+    color: #ffffff;
+
+}
+
+/*TEMAS DEL SIDEBAR*/
+/*OSCURO*/
+.tema-oscuro .sidebar {
+    background-color: #010b1d;
+    color: #ffffff;
+}
+
+/*CLARO*/
+.tema-claro .sidebar {
+    background-color: #00bdf791;
+    color: #000000;
+}
